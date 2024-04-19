@@ -25,12 +25,9 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 2. Remove irrelevant columns: 'Loan ID', 'Customer ID', 'Months since last delinquent'
 3. Standardise names of variables
 
-## Basic Visualization 
+## Exploratory Data Analysis
 1. Numerical Data
 2. Categorical Data
-
-## Exploratory Data Analysis
-
 
 ## Machine Learning
 1. Logistic Regression
