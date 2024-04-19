@@ -12,9 +12,9 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 - What can banks do to reduce risk of loan defaults?
 
 ## Contributors (FDDB):
-- Yoong Hong Jun, Nicholas
-- Marcus Yeo Xian Sheng
-- Shermaine Yau Yu Shuen
+- Yoong Hong Jun, Nicholas - Data Cleaning, Data Visualiation
+- Marcus Yeo Xian Sheng - Logistic Regression, Random Forest
+- Shermaine Yau Yu Shuen - Neural Networks
 
 ## Other Files Included
 - credit_train.csv - dataset
