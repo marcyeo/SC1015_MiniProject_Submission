@@ -31,7 +31,7 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 The dataset contained a mix of numerical and categorical columns. The data was cleaned to make it suitable for Exploratory Data Analysis and for procesing by our machine learning models. To do this, we:
 1. Checked and removed missing values, duplicates and outliers within the dataset
 2. Removed columns: 'Loan ID', 'Customer ID', 'Months since last delinquent', that are either used for customer identification or contained a large number of missing values
-3. Standardise names of variables to make analysis easier
+3. Standardised names of variables to make analysis easier
 
 ## Exploratory Data Analysis
 1. Numerical Data
@@ -52,7 +52,7 @@ The dataset contained a mix of numerical and categorical columns. The data was c
 
 ## What we learnt from the Project
 - Well defined problem formulation to derive data driven insights
-- Data Visualisation techniques using plotly library
+- Data Visualisation techniques using plotly and hvplot library
 - New machine learning models such as Logistic Regression from sklearn and Neural Networks
 - Collaborating using GitHub
 - Classification Concepts such as F1 Score
