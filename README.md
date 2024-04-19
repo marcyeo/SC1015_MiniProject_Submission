@@ -19,7 +19,7 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 - [Excel Datasets](https://github.com/marcyeo/SC1015_MiniProject_Submission/tree/main/datasets)
     * [categorical_credit](): Contains only cleaned categorical columns
     * [cleaned_credit](): Dataset after cleaning
-    * [combined](): 
+    * [combined](): Combined Dataset of cleaned numerical and categorical columns 
     * [credit_train](): Original Dataset
     * [numerical_credit](): Contains only cleaned numerical columns
       
