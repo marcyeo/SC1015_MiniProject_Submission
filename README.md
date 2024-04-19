@@ -39,7 +39,7 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 
 3. Multilayer Perceptron Neural Network
 
-4. 
+4. Neural Network for SHAP Analysis
 
 
 
