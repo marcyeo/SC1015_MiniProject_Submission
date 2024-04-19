@@ -52,6 +52,12 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 ## Conclusion
 
 ## What we learnt from the Project
+- Well defined problem formulation to derive data driven insights
+- Data Visualisation techniques using plotly library
+- New machine learning models such as Logistic Regression from sklearn and Neural Networks
+- Collaborating using GitHub
+- Classification Concepts such as F1 Score
+- SHAP graph analysis for interpreting Neural Network
 
 ## References 
 
