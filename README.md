@@ -3,8 +3,8 @@
 ## About
 Introducing our SC1015 mini-project, where we performed analysis on the [Credit_card dataset from Kaggle](https://www.kaggle.com/datasets/fatmayousufmohamed/credit-card/data). Please view the source code in the following order:
 1. [Cleaning and preparation](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/data%20cleaning.ipynb)
-2. [Exploratory Data Analysis]()
-3. Machine learning: [Random Forest](), [Logistic Regression](), Neural Network
+2. [Exploratory Data Analysis](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/exploratory%20data%20analysis.ipynb)
+3. Machine learning: [Logistic Regression](), [Random Forest](), [Multilayer Perceptron Neural Network](), 
 
 ## Problem Definition
 - What is the profile of credit card users?
