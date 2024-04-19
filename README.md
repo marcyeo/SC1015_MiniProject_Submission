@@ -1,1 +1,44 @@
 # SC1015_MiniProject
+Introducing our SC1015 mini-project, where we performed analysis on the [Credit_card dataset from Kaggle](https://www.kaggle.com/datasets/fatmayousufmohamed/credit-card/data).
+
+## Problem Definition
+- What is the profile of credit card users?
+- What are the top factors that influence loan default?
+- What can banks do to reduce risk of loan defaults?
+
+## Contributors (FDDB):
+- Yoong Hong Jun, Nicholas
+- Marcus Yeo Xian Sheng
+- Shermaine Yau Yu Shuen
+
+## Files Included
+- credit_train.csv - dataset
+
+1. [Cleaning and preparation]()
+2. [Exploratory Data Analysis]() NOTE: Please use nbviewer to view this notebook
+3. Machine learning: [Random Forest](), [Logistic Regression](), Neural Network
+
+# Notebook Details
+## Cleaning and Preparation
+1. Check and remove missing values, duplicates and outliers within the dataset
+2. Remove irrelevant columns: 'Loan ID', 'Customer ID', 'Months since last delinquent'
+3. Standardise names of variables
+
+## Basic Visualization 
+1. Numerical Data
+2. Categorical Data
+
+## Exploratory Data Analysis
+
+
+## Machine Learning
+1. Decision Tree
+
+2. Random Forest
+
+3. Logistic Regression
+
+4. K-Means Clustering
+
+# Conclusion
+
