@@ -22,6 +22,8 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
     * [combined]()
     * [credit_train]()
     * [numerical_credit](): Contains only numerical columns
+      
+- [Overall Ranking]()
         
                   
 
