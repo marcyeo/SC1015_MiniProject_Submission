@@ -17,8 +17,11 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 
 ## Other Files Included
 - [Excel Datasets](https://github.com/marcyeo/SC1015_MiniProject_Submission/tree/main/datasets)
-    * 1. [categorical_credit]()
-      2. [cleaned_credit]()
+    * [categorical_credit]()
+    * [cleaned_credit]()
+    * [combined]()
+    * [credit_train]()
+    * [numerical_credit]()
         
                   
 
