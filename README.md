@@ -17,11 +17,11 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 
 ## Other Files Included
 - [Excel Datasets](https://github.com/marcyeo/SC1015_MiniProject_Submission/tree/main/datasets)
-    * [categorical_credit]()
+    * [categorical_credit](): Contains only categorical columns
     * [cleaned_credit]()
     * [combined]()
     * [credit_train]()
-    * [numerical_credit]()
+    * [numerical_credit](): Contains only numerical columns
         
                   
 
