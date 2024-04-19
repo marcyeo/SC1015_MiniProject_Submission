@@ -17,9 +17,9 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 
 ## Other Files Included
 - [Excel Datasets](https://github.com/marcyeo/SC1015_MiniProject_Submission/tree/main/datasets)
-* Bullet list
-    * Nested bullet
-        * Sub-nested bullet etc
+    * 1. [categorical_credit]()
+      2. [cleaned_credit]()
+        
                   
 
 
