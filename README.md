@@ -33,13 +33,17 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 
 
 ## Machine Learning
-1. Decision Tree
+1. Logistic Regression
 
 2. Random Forest
 
-3. Logistic Regression
+3. Multilayer Perceptron Neural Network
 
-4. K-Means Clustering
+4. 
+
+
 
 # Conclusion
+
+# What we learnt from the Project
 
