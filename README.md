@@ -7,7 +7,6 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 3. Machine learning: [Logistic Regression](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/Logistic%20Regression.ipynb), [Random Forest](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/randomforest.ipynb), [Multilayer Perceptron Neural Network](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/multilayer%20perceptron%20nn.ipynb), 
 
 ## Problem Definition
-- What is the profile of credit card users?
 - What are the top factors that influence loan default?
 - What can banks do to reduce risk of loan defaults?
 
