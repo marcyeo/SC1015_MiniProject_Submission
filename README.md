@@ -45,7 +45,8 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 
 ## Conclusion
 
+## What we learnt from the Project
+
 ## References 
 
-# What we learnt from the Project
 
