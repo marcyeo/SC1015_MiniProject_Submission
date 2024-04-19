@@ -16,7 +16,7 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 - Shermaine Yau Yu Shuen - Neural Networks
 
 ## Other Files Included
-- credit_train.csv - dataset
+- [Excel Datasets](https://github.com/marcyeo/SC1015_MiniProject_Submission/tree/main/datasets)
 
 
 # Notebook Details
