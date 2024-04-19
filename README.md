@@ -14,7 +14,7 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 ## Files Included
 - credit_train.csv - dataset
 
-1. [Cleaning and preparation]()
+1. [Cleaning and preparation](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/data%20cleaning.ipynb)
 2. [Exploratory Data Analysis]() NOTE: Please use nbviewer to view this notebook
 3. Machine learning: [Random Forest](), [Logistic Regression](), Neural Network
 
