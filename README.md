@@ -39,6 +39,10 @@ The dataset contained a mix of numerical and categorical columns. The data was c
 
 ## Machine Learning
 1. Logistic Regression
+- Converted categorical variables into dummy variables
+- Trained and tested the logistic regression model
+- Printed the model's results ranking of variables that determine loan status
+- Checked accuracy metrics
 
 2. Random Forest
 
@@ -49,6 +53,11 @@ The dataset contained a mix of numerical and categorical columns. The data was c
 
 
 ## Conclusion
+Using Excel (File:Overall_Ranking) to collate the ranking of our 3 machine learning models and calculating every variable's average ranking score, we derived our top 10 most significant variables determing loan status.
+
+Based on these variables, we propose a scoring system that banks can use to rate the risk level of loan default for every customer profile. The 10 variables will serve as components to be graded, with the results from the SHAP values used to determine the scoring. The scores would aid banks in customer profiling, which banks can then amend loan disbursement policies to cater to different levels of loan default risk, reducing the risk of customer loan default.
+
+With the complex nature of loan defaults, further developments of our project could analyse the interactions between individual variables using neural networks and how these interactions would influence loan status using techniques like Partial Dependence Plots (PDPs) or Individual Conditional Expectation (ICE). Clustering of customers using k-means clustering based on different sets of variables could be used to more accurately identify the range and combination of variable values that would group these customers under different risk levels for loan default.
 
 ## What we learnt from the Project
 - Well defined problem formulation to derive data driven insights
@@ -59,5 +68,6 @@ The dataset contained a mix of numerical and categorical columns. The data was c
 - SHAP graph analysis for interpreting Neural Network
 
 ## References 
-
+1. https://acerta.ai/blog/understanding-machine-learning-with-shap-analysis/
+2. https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/
 
