@@ -115,5 +115,5 @@ With the complex nature of loan defaults, further developments of our project co
 8. https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/
 9. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
 10. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
-11. https://scikit-learn.org/stable/modules/neural_networks_supervised.html
+11. https://scikit-learn.org/stable/modules/neural_networks_supervised.htmlhttps://datascientest.com/en/shap-what-is-it#:~:text=SHapley%20Additive%20exPlanations%2C%20more%20commonly,each%20feature%20or%20feature%20value.
 
