@@ -35,9 +35,18 @@ The dataset contained a mix of numerical and categorical columns. The data was c
 3. Standardised names of variables to make analysis easier, by removing underscores and standardising capitalisation
 
 ## Exploratory Data Analysis
+We split our numerical and categorical columns into distinct columns to analyse their impact on loan status.
+
 1. Numerical Data
 
-For our numerical data analysis, 
+- For our numerical data analysis, we grouped the columns ('Loan Status','Current Loan Amount', 'Credit Score', 'Annual Income', 'Monthly Debt', 'Years of Credit History', 'Number of Open Accounts', 'Number of Credit Problems', 'Current Credit Balance', 'Maximum Open Credit', 'Bankruptcies', 'Tax Liens') into a numerical dataframe/
+- Reclassified 'Number of Credit Problems', 'Bankruptcies' and 'Tax Liens' into categorical variables as a large proportion of their values could be split into distinct categories.
+- Converted loan status into a dummy variable for comparison with our numerical data.
+- Violin Plots to analyse distribution of each numerical variable to identify trends
+- Correlation table and matrix for each variable with loan default status
+- Used plotly to visualise each numerical variable with loan status, to observe trends between values that yield a loan status value of 0 or 1
+- 'Current Loan Amount', 'Credit Score', 'Annual Income' and 'Maximum Open Credit' were the most strongly correlated with loan status based on our EDA
+
 
 2. Categorical Data
 
