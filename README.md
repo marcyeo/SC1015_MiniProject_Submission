@@ -116,4 +116,4 @@ With the complex nature of loan defaults, further developments of our project co
 9. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
 10. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 11. https://scikit-learn.org/stable/modules/neural_networks_supervised.htmlhttps://datascientest.com/en/shap-what-is-it#:~:text=SHapley%20Additive%20exPlanations%2C%20more%20commonly,each%20feature%20or%20feature%20value.
-
+12. https://michael-fuchs-python.netlify.app/2021/02/03/nn-multi-layer-perceptron-classifier-mlpclassifier
