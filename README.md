@@ -50,21 +50,44 @@ We split our numerical and categorical columns into distinct columns to analyse 
 
 
 2. Categorical Data
+- For our categorical data analysis, we grouped the columns('Loan Status', 'Term', 'Years in current job', 'Home Ownership', 'Purpose', 'Number of Credit Problems', 'Bankruptcies', 'Tax Liens') into a categorical dataframe
+- Reclassified numerical variables ('Number of Credit Problems', 'Bankruptcies', 'Tax Liens') into categorical: Assigned categories '0' and '>=1'
+- Visualised categorical variables with respect to loan status using grouped barplots to analyse correlation with loan status of 'Charged Off' and 'Fully Paid'
+- 'Term', 'Years in current job', 'Home Ownership' and 'Purpose' had greatest deviations between the categories with respect to loan status, and were likely to be stronger predictors based on our EDA
 
 ## Machine Learning
 1. Logistic Regression
 - Converted categorical variables into dummy variables
 - Trained and tested the logistic regression model
-- Printed the model's results ranking of variables that determine loan status
-- Checked accuracy metrics
+- Printed the model's ranking of variables that determine loan status
+- Checked accuracy metrics (train vs test performance, classification report)
 
 2. Random Forest
+- One-hot encoded categorical variables
+- Trained and tested Random Forest Classifier model (Model #1)
+- Checked accuracy metrics (train vs test performance, classification report) for Model #1
+- Printed Model #1's ranking of variables that determine loan status
+- Tuned hyperparameters using Randomized Search, finding best estimator (Model #2)
+- Plotted Random Forest Tree for Model #2
+- Checked accuracy metrics (train vs test performance, classification report) for Model #2
+- Printed Model #2's ranking of variables that determine loan status
 
 3. Multilayer Perceptron Neural Network
+- Removed mean and scaled each numerical variable to unit variance
+- One-hot encoded categorical variables
+- Trained and tested Multilayer Perceptron model
+- Printed model's ranking of variables that determine loan status
+- Checked accuracy metrics (train vs test performance, classification report
 
 4. Neural Network for SHAP Analysis
-
-
+- Removed mean and scaled each numerical variable to unit variance
+- One-hot encoded categorical variables
+- Created a neural network model with input layer (ReLU activation), 2 hidden layers (ReLU activation), and output layer (Sigmoid activation)
+- Trained and tested Neural Network model, printing training process with accuracy and loss for each Epoch
+- Printed weights for each layer
+- Visualised training process with Line graphs:  Loss, Accuracy, Precision and Recall History
+- Checked accuracy metrics (train vs test performance, classification report)
+- SHapley Additive exPlanations analysis to analyse importance of variables in predicting Loan Status and correlation with Loan Status
 
 ## Conclusion
 Using Excel (File:Overall_Ranking) to collate the ranking of our 3 machine learning models and calculating every variable's average ranking score, we derived our top 10 most significant variables determing loan status.
@@ -82,11 +105,15 @@ With the complex nature of loan defaults, further developments of our project co
 - SHAP graph analysis for interpreting Neural Network
 
 ## References 
-1. https://acerta.ai/blog/understanding-machine-learning-with-shap-analysis/
-2. https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/
-3. https://www.cnbc.com/2024/02/06/credit-card-delinquencies-surged-in-2023-indicating-financial-stress-new-york-fed-says.html
-4. https://towardsdatascience.com/multilayer-perceptron-explained-with-a-real-life-example-and-python-code-sentiment-analysis-cb408ee93141
-5. https://machinelearningmastery.com/neural-networks-crash-course/
-6. https://towardsdatascience.com/random-forest-in-python-24d0893d51c0
-7. https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/
+1. https://www.kaggle.com/datasets/fatmayousufmohamed/credit-card/data
+2. https://acerta.ai/blog/understanding-machine-learning-with-shap-analysis/
+3. https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/
+4. https://www.cnbc.com/2024/02/06/credit-card-delinquencies-surged-in-2023-indicating-financial-stress-new-york-fed-says.html
+5. https://towardsdatascience.com/multilayer-perceptron-explained-with-a-real-life-example-and-python-code-sentiment-analysis-cb408ee93141
+6. https://machinelearningmastery.com/neural-networks-crash-course/
+7. https://towardsdatascience.com/random-forest-in-python-24d0893d51c0
+8. https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/
+9. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
+10. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+11. https://scikit-learn.org/stable/modules/neural_networks_supervised.html
 
