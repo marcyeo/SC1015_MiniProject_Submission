@@ -42,7 +42,7 @@ We split our numerical and categorical columns into distinct columns to analyse 
 
 - For our numerical data analysis, we grouped the columns ('Loan Status','Current Loan Amount', 'Credit Score', 'Annual Income', 'Monthly Debt', 'Years of Credit History', 'Number of Open Accounts', 'Number of Credit Problems', 'Current Credit Balance', 'Maximum Open Credit', 'Bankruptcies', 'Tax Liens') into a numerical dataframe
 - Further data cleaning: Reclassified 'Number of Credit Problems', 'Bankruptcies' and 'Tax Liens' into categorical variables as a large proportion of their values could be split into distinct categories.
-- Converted loan status into a dummy variable for comparison with our numerical data.
+- Converted loan status into a dummy variable for comparison with our numerical data. We assigned a value of 0 for 'Charged off' (negative) Loan Status and a value of 1 for 'Fully Paid' (positive) Loan Status. 
 - Violin Plots to analyse distribution of each numerical variable to identify trends
 - Correlation table and matrix for each variable with loan default status
 - Used plotly to visualise each numerical variable with loan status, to observe trends between values that yield a loan status value of 0 or 1
@@ -88,6 +88,7 @@ We split our numerical and categorical columns into distinct columns to analyse 
 - Visualised training process with Line graphs:  Loss, Accuracy, Precision and Recall History
 - Checked accuracy metrics (train vs test performance, classification report)
 - SHapley Additive exPlanations analysis to analyse importance of variables in predicting Loan Status and correlation with Loan Status
+- Feature values of SHAP analysis are based off column indexes in our dataframe
 
 ## Conclusion
 Using Excel (File:Overall_Ranking) to collate the ranking of our 3 machine learning models and calculating every variable's average ranking score, we derived our top 10 most significant variables determing loan status.
@@ -95,6 +96,8 @@ Using Excel (File:Overall_Ranking) to collate the ranking of our 3 machine learn
 ![image](https://github.com/marcyeo/SC1015_MiniProject_Submission/assets/147054465/2f5c708c-3858-4fdb-9cb3-661f9e3d81ff)
 
 Note: 'Home Ownership' and 'Term' are categorical variables.
+
+From our SHAP Analysis, the top 5 variables that most strongly determine loan status are Annual Income (Feature 2), Maximum Open Credit (Feature 7), Current Loan Amount (Feature 0), Current Credit Balance (Feature 6), and Credit Score (Feature 1). Higher Annual Income, Maximum Open credit and Credit Score values tended to lean towards posiitve SHAP values, implying that higher values are strongly suggestive of Loan Status being Fully Paid. On the other hand, lower values of Current Loan Amount and Current Credit Balance tended towards positive SHAP values, indicating that lower loan amounts and lower credit balances were more likely to result in Loan Status being Fully Paid. 
 
 Based on these variables, we propose a scoring system that banks can use to rate the risk level of loan default for every customer profile. The 10 variables will serve as components to be graded, with the results from the SHAP values used to determine the scoring. The scores would aid banks in customer profiling, which banks can then amend loan disbursement policies to cater to different levels of loan default risk, reducing the risk of customer loan default.
 
