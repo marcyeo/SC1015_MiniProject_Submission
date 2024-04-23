@@ -17,14 +17,15 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 
 ## Other Files Included
 - [Excel Datasets](https://github.com/marcyeo/SC1015_MiniProject_Submission/tree/main/datasets)
-    * [categorical_credit](): Contains only cleaned categorical columns
-    * [cleaned_credit](): Dataset after cleaning
-    * [combined](): Combined Dataset of cleaned numerical and categorical columns 
-    * [credit_train](): Original Dataset
-    * [numerical_credit](): Contains only cleaned numerical columns
+    * [categorical_credit](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/datasets/categorical_credit.csv): Contains only cleaned categorical columns
+    * [cleaned_credit](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/datasets/cleaned_credit.csv): Dataset after cleaning
+    * [combined](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/datasets/combined.csv): Combined Dataset of cleaned numerical and categorical columns 
+    * [credit_train](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/datasets/credit_train.csv): Original Dataset
+    * [numerical_credit](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/datasets/numerical_credit.csv): Contains only cleaned numerical columns
       
-- [Overall Ranking](): Overall ranking of our variables that affect loan status based on the machine learning models
-        
+- [Overall Ranking](https://github.com/marcyeo/SC1015_MiniProject_Submission/blob/main/Overall_Ranking.xlsx): Overall ranking of our variables that affect loan status based on the machine learning models
+
+Note: Kindly download all excel files for viewing 
                   
 # Notebook Details
 ## Cleaning and Preparation
