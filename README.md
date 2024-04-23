@@ -39,7 +39,7 @@ We split our numerical and categorical columns into distinct columns to analyse 
 
 1. Numerical Data
 
-- For our numerical data analysis, we grouped the columns ('Loan Status','Current Loan Amount', 'Credit Score', 'Annual Income', 'Monthly Debt', 'Years of Credit History', 'Number of Open Accounts', 'Number of Credit Problems', 'Current Credit Balance', 'Maximum Open Credit', 'Bankruptcies', 'Tax Liens') into a numerical dataframe/
+- For our numerical data analysis, we grouped the columns ('Loan Status','Current Loan Amount', 'Credit Score', 'Annual Income', 'Monthly Debt', 'Years of Credit History', 'Number of Open Accounts', 'Number of Credit Problems', 'Current Credit Balance', 'Maximum Open Credit', 'Bankruptcies', 'Tax Liens') into a numerical dataframe
 - Reclassified 'Number of Credit Problems', 'Bankruptcies' and 'Tax Liens' into categorical variables as a large proportion of their values could be split into distinct categories.
 - Converted loan status into a dummy variable for comparison with our numerical data.
 - Violin Plots to analyse distribution of each numerical variable to identify trends
