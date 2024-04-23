@@ -83,4 +83,9 @@ With the complex nature of loan defaults, further developments of our project co
 ## References 
 1. https://acerta.ai/blog/understanding-machine-learning-with-shap-analysis/
 2. https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/
+3. https://www.cnbc.com/2024/02/06/credit-card-delinquencies-surged-in-2023-indicating-financial-stress-new-york-fed-says.html
+4. https://towardsdatascience.com/multilayer-perceptron-explained-with-a-real-life-example-and-python-code-sentiment-analysis-cb408ee93141
+5. https://machinelearningmastery.com/neural-networks-crash-course/
+6. https://towardsdatascience.com/random-forest-in-python-24d0893d51c0
+7. https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/
 
