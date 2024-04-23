@@ -92,6 +92,21 @@ We split our numerical and categorical columns into distinct columns to analyse 
 ## Conclusion
 Using Excel (File:Overall_Ranking) to collate the ranking of our 3 machine learning models and calculating every variable's average ranking score, we derived our top 10 most significant variables determing loan status.
 
+Rank	Variables
+1	Home Ownership_Rent
+2	Annual Income
+3	Current Loan Amount
+4	Monthly Debt
+5	Home Ownership_Home Mortgage
+6	Credit Score
+7	Term_Short Term
+8	Term_Long Term
+9	Number of Open Accounts
+10	Maximum Open Credit
+11	Current Credit Balance
+12	Years of Credit History![image](https://github.com/marcyeo/SC1015_MiniProject_Submission/assets/147054465/f9f8da71-58d5-4e3b-a793-f92607bc58dc)
+Note: 'Home Ownership' and 'Term' are categorical variables.
+
 Based on these variables, we propose a scoring system that banks can use to rate the risk level of loan default for every customer profile. The 10 variables will serve as components to be graded, with the results from the SHAP values used to determine the scoring. The scores would aid banks in customer profiling, which banks can then amend loan disbursement policies to cater to different levels of loan default risk, reducing the risk of customer loan default.
 
 With the complex nature of loan defaults, further developments of our project could analyse the interactions between individual variables using neural networks and how these interactions would influence loan status using techniques like Partial Dependence Plots (PDPs) or Individual Conditional Expectation (ICE). Clustering of customers using k-means clustering based on different sets of variables could be used to more accurately identify the range and combination of variable values that would group these customers under different risk levels for loan default.
