@@ -99,7 +99,7 @@ With the complex nature of loan defaults, further developments of our project co
 ## What we learnt from the Project
 - Well defined problem formulation to derive data driven insights
 - Data Visualisation techniques using plotly and hvplot library
-- New machine learning models such as Logistic Regression from sklearn and Neural Networks
+- New machine learning models such as Random Forest and Logistic Regression from sklearn, and Neural Networks (sklearn and keras library)
 - Collaborating using GitHub
 - Classification Concepts such as F1 Score
 - SHAP graph analysis for interpreting Neural Network
