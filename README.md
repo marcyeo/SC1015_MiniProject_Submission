@@ -29,6 +29,7 @@ Note: Kindly download all excel files for viewing
                   
 # Notebook Details
 ## Cleaning and Preparation
+Our main objective was to analyse how the different variables in the dataset were correlated with 'Loan Status'. 
 The dataset contained a mix of numerical and categorical columns. The data was cleaned to make it suitable for Exploratory Data Analysis and for procesing by our machine learning models. To do this, we:
 1. Checked and removed missing values, duplicates and outliers within the dataset
 2. Removed columns: 'Loan ID', 'Customer ID', 'Months since last delinquent', that are either used for customer identification or contained a large number of missing values
