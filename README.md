@@ -83,7 +83,7 @@ We split our numerical and categorical columns into distinct columns to analyse 
 - Removed mean and scaled each numerical variable to unit variance
 - One-hot encoded categorical variables
 - Created a neural network model with input layer (ReLU activation), 2 hidden layers (ReLU activation), and output layer (Sigmoid activation)
-- Trained and tested Neural Network model, printing training process with accuracy and loss for each Epoch
+- Trained and tested Neural Network model, printing training process with accuracy, loss, precision, and recall for each Epoch
 - Printed weights for each layer
 - Visualised training process with Line graphs:  Loss, Accuracy, Precision and Recall History
 - Checked accuracy metrics (train vs test performance, classification report)
