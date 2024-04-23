@@ -83,7 +83,7 @@ We split our numerical and categorical columns into distinct columns to analyse 
 - Removed mean and scaled each numerical variable to unit variance
 - One-hot encoded categorical variables
 - Created a neural network model with input layer (ReLU activation), 2 hidden layers (ReLU activation), and output layer (Sigmoid activation)
-- Trained and tested Neural Network model, printing training process with accuracy and loss for each Epoch
+- Trained and tested Neural Network model, printing training process with accuracy, loss, precision, and recall for each Epoch
 - Printed weights for each layer
 - Visualised training process with Line graphs:  Loss, Accuracy, Precision and Recall History
 - Checked accuracy metrics (train vs test performance, classification report)
@@ -115,5 +115,5 @@ With the complex nature of loan defaults, further developments of our project co
 8. https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/
 9. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
 10. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
-11. https://scikit-learn.org/stable/modules/neural_networks_supervised.html
+11. https://scikit-learn.org/stable/modules/neural_networks_supervised.htmlhttps://datascientest.com/en/shap-what-is-it#:~:text=SHapley%20Additive%20exPlanations%2C%20more%20commonly,each%20feature%20or%20feature%20value.
 
