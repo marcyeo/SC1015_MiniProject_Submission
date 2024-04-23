@@ -23,7 +23,7 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
     * [credit_train](): Original Dataset
     * [numerical_credit](): Contains only cleaned numerical columns
       
-- [Overall Ranking]()
+- [Overall Ranking](): Overall ranking of our variables that affect loan status based on the machine learning models
         
                   
 # Notebook Details
@@ -31,10 +31,13 @@ Introducing our SC1015 mini-project, where we performed analysis on the [Credit_
 The dataset contained a mix of numerical and categorical columns. The data was cleaned to make it suitable for Exploratory Data Analysis and for procesing by our machine learning models. To do this, we:
 1. Checked and removed missing values, duplicates and outliers within the dataset
 2. Removed columns: 'Loan ID', 'Customer ID', 'Months since last delinquent', that are either used for customer identification or contained a large number of missing values
-3. Standardised names of variables to make analysis easier
+3. Standardised names of variables to make analysis easier, by removing underscores and standardising capitalisation
 
 ## Exploratory Data Analysis
 1. Numerical Data
+
+For our numerical data analysis, 
+
 2. Categorical Data
 
 ## Machine Learning
